@@ -1,8 +1,8 @@
 package main
 
 import (
-	"MimojaFirmwareToolkit/pkg/Common"
 	"encoding/json"
+	"github.com/Mimoja/MFT-Common"
 )
 
 var Bundle MFTCommon.AppBundle
