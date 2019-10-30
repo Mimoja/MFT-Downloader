@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM mft_go-yara
 MAINTAINER Mimoja <git@mimoja.de>
  
 RUN mkdir /app
