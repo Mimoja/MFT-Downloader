@@ -3,7 +3,7 @@ module github.com/Mimoja/MFT-Downloader
 go 1.13
 
 require (
-	github.com/Mimoja/MFT-Common v0.0.0-20191030112355-60fcad9314fd
+	github.com/Mimoja/MFT-Common v0.0.0-20191110082514-f23867189858
 	github.com/avast/retry-go v2.4.2+incompatible
 	github.com/cnf/structhash v0.0.0-20180104161610-62a607eb0224
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect

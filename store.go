@@ -59,7 +59,7 @@ func store(entry MFTCommon.DownloadEntry) error {
 	Bundle.Log.WithField("entry", entry).Debug("Download finished")
 
 	Bundle.DB.StoreElement("packages", nil, entry, &id)
-	Bundle.MessageQueue.DownloadedQueue.MarshalAndSend(entry)
+	Bundle.MessageQueue.DownloadedQueue.MarshalAndSend(MFTCommon.DownloadWrapper{entry, false})
 	return nil
 }
 
